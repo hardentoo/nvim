@@ -106,6 +106,9 @@ noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
 
+" Esc key in Terminal - back to Normal mode.
+tnoremap <Esc> <C-\><C-n>
+
 " Cursive comments are great IMHO.
 highlight Comment cterm=italic
 
