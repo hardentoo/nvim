@@ -47,10 +47,13 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 
 " Elm support.
-Plug 'ElmCast/elm-vim'
+" Plug 'ElmCast/elm-vim'
 
 " Nix support.
 Plug 'spwhitt/vim-nix'
+
+" GHCid support.
+" Plug 'ndmitchell/ghcid', { 'rtp': 'plugins/nvim' }
 
 " Initialize plugin system.
 call plug#end()
